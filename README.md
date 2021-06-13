@@ -59,7 +59,7 @@ $ brew install gdal # on Mac OS X
 $ sudo apt install gdal-bin # on Ubuntu
 ```
 
-Then, simply execute `rebuild.sh`. Expect it to take 10-30 minutes, depending
+Then, simply execute `rebuild/rebuild.sh`. Expect it to take 10-30 minutes, depending
 on your network connection and CPU.
 
 [tbb]: https://github.com/evansiroky/timezone-boundary-builder/

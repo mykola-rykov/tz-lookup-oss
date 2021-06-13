@@ -5,7 +5,7 @@ describe("tzlookup", function() {
     tz = tzlookup;
   }
   else {
-    tz = require("./");
+    tz = require("./tz");
   }
 
   function stringify_item(x) {

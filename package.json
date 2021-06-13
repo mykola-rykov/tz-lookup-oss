@@ -18,10 +18,10 @@
   "name": "tz-lookup",
   "repository": {
     "type": "git",
-    "url": "git://github.com/darkskyapp/tz-lookup.git"
+    "url": "git://github.com/mykola-rykov/tz-lookup-oss.git"
   },
   "scripts": {
-    "test": "mocha"
+    "test": "mocha tz.test"
   },
-  "version": "6.1.26"
+  "version": "6.1.27"
 }
