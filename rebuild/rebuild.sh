@@ -1,6 +1,6 @@
 #!/bin/bash
 set -ex
-TZ="2019b"
+TZ="2020d"
 
 rm -rf timezones.geojson.zip dist ne_10m_urban_areas.*
 curl -L --retry 3 -C - \
@@ -9,4 +9,4 @@ curl -L --retry 3 -C - \
 unzip timezones.geojson.zip
 unzip ne_10m_urban_areas.zip
 ogr2ogr -f GeoJSON ne_10m_urban_areas.json ne_10m_urban_areas.shp
-node pack.js | ./node_modules/.bin/uglifyjs -mc >tz.js
+node pack.js | ../node_modules/.bin/uglifyjs -mc >../dist/tz.js

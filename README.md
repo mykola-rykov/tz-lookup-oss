@@ -47,6 +47,10 @@ alert(tzlookup(42.7235, -73.6931)); // alerts "America/New_York"
     please open an issue (or, better yet, submit a pull request with a failing
     test) and I'll see what I can do to increase the accuracy for you.
 
+Tests
+-------
+`npm test`
+
 Sources
 -------
 Timezone data is sourced from Evan Siroky's [timezone-boundary-builder][tbb].
@@ -59,7 +63,7 @@ $ brew install gdal # on Mac OS X
 $ sudo apt install gdal-bin # on Ubuntu
 ```
 
-Then, simply execute `rebuild/rebuild.sh`. Expect it to take 10-30 minutes, depending
+Then, simply execute `sh rebuild.sh` from `rebuild` dir. Expect it to take 10-30 minutes, depending
 on your network connection and CPU.
 
 [tbb]: https://github.com/evansiroky/timezone-boundary-builder/

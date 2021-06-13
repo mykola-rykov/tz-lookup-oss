@@ -14,14 +14,14 @@
     "time zone"
   ],
   "license": "CC0-1.0",
-  "main": "tz.js",
+  "main": "dist/tz.js",
   "name": "tz-lookup",
   "repository": {
     "type": "git",
     "url": "git://github.com/mykola-rykov/tz-lookup-oss.git"
   },
   "scripts": {
-    "test": "mocha tz.test"
+    "test": "mocha test/tz.test"
   },
   "version": "6.1.27"
 }
